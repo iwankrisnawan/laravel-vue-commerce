@@ -17,3 +17,5 @@ personal project, created by laravel 5 with vue
 
 # note
 there is still some error / bug because it's old project and rare to have maintance
+
+(still on progress to fix the problem)
