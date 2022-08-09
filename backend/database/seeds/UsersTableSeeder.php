@@ -15,15 +15,15 @@ class UsersTableSeeder extends Seeder
         $users = [];
         $faker = Faker\Factory::create();
         for($i=0;$i<5;$i++){
-            $avatar_path = base_path().'/public/images/users';
-            $avatar_fullpath = $faker->image($avatar_path, 200, 250, 'people', true, true, 'people');
-            $avatar = str_replace($avatar_path . '/' , '', $avatar_fullpath);
+            // $avatar_path = base_path().'/public/images/users';
+            // $avatar_fullpath = $faker->image($avatar_path, 200, 250, 'people', true, true, 'people');
+            // $avatar = str_replace($avatar_path . '/' , '', $avatar_fullpath);
             $users[$i] = [
                 'name'       => $faker->name,
                 'email'      => $faker->unique()->safeEmail,
                 'password'   => bcrypt('123456'),
                 'roles'      => json_encode(['CUSTOMER']),
-                'avatar'     => $avatar,
+                'avatar'     => 'user_profile.jpg',
                 'status'     => 'ACTIVE',
                 'created_at' => Carbon\Carbon::now(),
             ];

@@ -48,7 +48,7 @@ export default {
     data () {
         return {
             valid: true,
-            email: 'akautzer@example.net',
+            email: 'claire78@example.net',
             emailRules: [
             v => !!v || 'E-mail is required',
             v => /([a-zA-Z0-9_]{1,})(@)([a-zA-Z0-9_]{2,}).([a-zA-Z0-9_]{2,})+/.test(v) || 'E-mail must be valid'

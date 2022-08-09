@@ -1,5 +1,5 @@
 # laravel with vue
-personal project, created by laravel 5 with vue
+personal project, created by Laravel 5 & Vuetify
 
 # setup backend
 1. go to the backend folder
@@ -11,8 +11,9 @@ personal project, created by laravel 5 with vue
 
 # setup frontend
 1. go to the vueshop-ui folder
-2. npm install
-3. npm run serve
+2. change `.env` if needed
+3. npm install
+4. npm run serve
 
 
 # note
